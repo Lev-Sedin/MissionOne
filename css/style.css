@@ -26,7 +26,29 @@ body {
   max-height: 720px;
   margin: 0 auto;
 }
+.oval {
+  width: 100%;
+}
+.oval-first {
+  position: absolute;
+  width: 978px;
+  height: 976px;
+  z-index: 0;
+  left: -204.71px;
+  top: -380px;
+  margin: 0;
+  padding: 0;
 
+  background: linear-gradient(
+    180deg,
+    rgba(9, 137, 180, 0.0001) 30%,
+    #53ffee 99%
+  );
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  transform: rotate(-135deg);
+  border-radius: 50%;
+}
 .main {
   display: flex;
   justify-content: center;
@@ -34,6 +56,7 @@ body {
 .box {
   position: relative;
   z-index: 1;
+  top: 260px;
   width: 350px;
   height: 374px;
   background: #ffffff;
@@ -85,9 +108,11 @@ h2 {
 .oval-second {
   position: absolute;
   z-index: 0;
-  right: 0;
   width: 978px;
   height: 976px;
+  bottom: -557px;
+  right: -120px;
+
   background: linear-gradient(
     180deg,
     rgba(9, 137, 180, 0.0001) 0.78%,
