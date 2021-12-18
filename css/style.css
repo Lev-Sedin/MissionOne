@@ -23,7 +23,6 @@ body {
 }
 .container {
   max-width: 1440px;
-  max-height: 720px;
   margin: 0 auto;
 }
 .oval {
@@ -123,4 +122,52 @@ h2 {
   border-radius: 50%;
   margin: 0;
   padding: 0;
+}
+@media screen and (max-width: 1200px) {
+  .oval-first {
+    left: -416.71px;
+    top: -436px;
+  }
+  .oval-second {
+    bottom: -572px;
+    right: -348px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .oval-first {
+    left: -471.71px;
+    top: -440px;
+  }
+  .oval-second {
+    bottom: -552px;
+    right: -445px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .oval-first {
+    left: -582.71px;
+    top: -450px;
+  }
+  .oval-second {
+    bottom: -522px;
+    right: -621px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .oval-first {
+    width: 622px;
+    height: 621px;
+    left: -426.71px;
+    top: -268px;
+  }
+  .box {
+    width: 326px;
+  }
+  .fon {
+    width: 100%;
+  }
+  .oval-second {
+    bottom: -439px;
+    right: -794px;
+  }
 }
