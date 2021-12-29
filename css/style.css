@@ -40,8 +40,9 @@ body {
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 55%;
-  height: 50%;
+  width: 963px;
+  height: 430px;
+  max-width: 100%;
 }
 .box {
   width: 350px;
@@ -71,12 +72,15 @@ body {
 .logo {
   position: relative;
   z-index: 1;
+  margin-top: -53px;
+}
+.photo {
   width: 96px;
   height: 96px;
+  object-fit: cover;
   border-radius: 50%;
   border: 5px solid #ffffff;
   background-color: #ffffff;
-  margin-top: -53px;
 }
 span {
   color: #6b7082;
@@ -102,22 +106,17 @@ h2 {
 }
 @media screen and (max-width: 1440px) {
   .oval-two {
-    right: -16px;
-    width: 53%;
-    height: 48%;
+    right: -145px;
   }
 }
 @media screen and (max-width: 1024px) {
   .oval-two {
-    right: -100px;
-    width: 60%;
+    right: -349px;
   }
 }
 @media screen and (max-width: 768px) {
   .oval-two {
-    right: -165px;
-    width: 72%;
-    height: 46%;
+    right: -324px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -126,16 +125,12 @@ h2 {
     height: 30%;
   }
   .oval-two {
-    right: -126px;
-    width: 91%;
-    height: 48%;
+    right: -169px;
   }
 }
 @media screen and (max-width: 375px) {
   .oval-two {
     right: -150px;
-    width: 97%;
-    height: 50%;
   }
   .box {
     width: 326px;
